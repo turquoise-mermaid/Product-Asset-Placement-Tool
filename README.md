@@ -30,4 +30,4 @@ Default sizes are based on Printful specs. To customize for other platforms, edi
 
 ## Support
 
-Contact: [your-email@example.com]
+Contact via Gumroad messaging after purchase.
