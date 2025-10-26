@@ -27,7 +27,7 @@ jobs:
         pyinstaller --onefile --windowed --name "AssetPlacementTool" asset_placement_tool.py
     
     - name: Upload Windows executable
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: AssetPlacementTool-Windows
         path: dist/AssetPlacementTool.exe
@@ -53,7 +53,7 @@ jobs:
         pyinstaller --onefile --windowed --name "AssetPlacementTool" asset_placement_tool.py
     
     - name: Upload Mac application
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: AssetPlacementTool-Mac
         path: dist/AssetPlacementTool.app
